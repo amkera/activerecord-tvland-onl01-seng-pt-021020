@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   
   def actors_list 
     #has an #actors_list method that returns a list of the full names of each actor associated with the show
-    
+    binding.pry 
     
     
   end 
