@@ -4,6 +4,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
   
   def actors_list 
+    #has an #actors_list method that returns a list of the full names of each actor associated with the show
+    
+    
     
   end 
   
