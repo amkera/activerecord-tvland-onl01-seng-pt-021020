@@ -8,6 +8,7 @@ class Show < ActiveRecord::Base
     binding.pry 
     self.actors.map do |actor|
       binding.pry
+    end 
     
     
   end 
