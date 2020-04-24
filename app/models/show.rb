@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
     #has an #actors_list method that returns a list of the full names of each actor associated with the show
     binding.pry 
     self.actors.map do |actor|
-      "#{actor.first_name}"
+      "#{actor.first_name} #{actor.last_name}"
     end 
     
     
